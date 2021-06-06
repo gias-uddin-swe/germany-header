@@ -1,0 +1,175 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.main-top-header {
+  background-color: #f3f3f3;
+}
+.top-header-elements {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+.top-header-items {
+  list-style-type: none;
+  display: inline-block;
+  padding: 8px;
+  margin-left: 33px;
+  margin-right: 33px;
+}
+@media screen and (max-width: 468px) {
+  .main-top-header {
+    display: none;
+  }
+  .search-input-field {
+    display: none;
+  }
+}
+@media (min-width: 375px) {
+  #search-input2 {
+    display: block;
+  }
+}
+
+#fouth-child-item {
+  margin: 0px;
+}
+#last-child-item {
+  margin: 0px;
+}
+.top-header-items a {
+  text-decoration: none;
+  display: inline-block;
+  color: rgb(124, 121, 121);
+  font-size: 15px;
+}
+.top-header-items a:hover {
+  color: black;
+}
+
+/* germany flag design  */
+.color1 {
+  width: 14px;
+  height: 3px;
+  background-color: black;
+}
+.color2 {
+  width: 14px;
+  height: 3px;
+  background-color: #dd0000;
+}
+.color3 {
+  width: 14px;
+  height: 3px;
+  background-color: #ffce00;
+}
+.flag-container {
+  display: inline-block;
+}
+/* second section middle top header styles */
+.middle-top-header {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.middle-elements {
+  display: inline-block;
+}
+#search-input2 {
+  width: 100px;
+  height: 42px;
+  border-radius: 5px;
+  background-color: #eeeeee;
+  border: none;
+  display: none;
+}
+.search-input-field {
+  width: 750px;
+  height: 42px;
+  border-radius: 5px;
+  background-color: #eeeeee;
+  border: none;
+  padding-left: 5px;
+}
+.search-input-field:hover {
+  background-color: #d8d8d8;
+}
+.search-input-field:focus {
+  background-color: rgb(250, 248, 248);
+  border: 1px solid rgb(238, 238, 238);
+}
+.logo-design {
+  margin-top: 10px;
+  margin-right: 20px;
+}
+.logo img {
+  width: 45%;
+  display: inline-block;
+}
+
+.icons {
+  margin: 0px 0px 0px 10px;
+}
+.icons button {
+  border: none;
+  font-size: 22px;
+  background-color: white;
+  font-weight: 200px;
+  padding: 10px;
+}
+
+.icons button:hover {
+  background-color: #eeeeee;
+  border-radius: 5px;
+}
+#heart-button {
+  background-color: #eeeeee;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* bottom navigation menu-items area */
+.menu-items-container {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  margin-top: 30px;
+}
+.navigation-menu-items {
+  display: inline-block;
+  list-style: none;
+  margin-right: 20px;
+}
+.navigation-menu-items a {
+  list-style-image: none;
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+}
+.navigation-menu-items a:hover {
+  padding-bottom: 5px;
+  border-bottom: 2px solid black;
+}
+
+.dropdown menu-items {
+}
+
+.dropdown-container {
+  display: inline;
+  position: relative;
+}
+.drop-down-content {
+  position: absolute;
+  top: 100%;
+  left: 25px;
+  background-color: #d8d8d8;
+  display: none;
+}
+
+.drop-down-content a {
+  display: block;
+  margin-top: 5px;
+}
